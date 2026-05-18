@@ -50,7 +50,7 @@ COPY --from=ghcr.io/ublue-os/brew:latest@sha256:ca91068f51ce663d495ccfc829352d66
 ## Alternative base images, no desktop included (uncomment to use):
 # FROM quay.io/centos-bootc/centos-bootc:stream10
 # FROM ghcr.io/ublue-os/base-main:latest    
-FROM ghcr.io/ublue-os/bluefin:stable
+FROM ghcr.io/ublue-os/bluefin:stable@sha256:e4d34a7536c9acfa84a2375438dd0435763fc6cfb518afa52a9a028208cd3ce5
 
 ## Alternative GNOME OS base image (uncomment to use):
 # FROM quay.io/gnome_infrastructure/gnome-build-meta:gnomeos-nightly
